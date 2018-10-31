@@ -1,9 +1,10 @@
 <?php
 
-declare(strict_types=1);
+// Only valid if PHP7 or greater
+//declare(strict_types = 1);
 
 /**
- * AUTHOR : AVONTURE Christophe
+ * AUTHOR : AVONTURE Christophe.
  *
  * Written date : 29 october 2018
  *
@@ -13,11 +14,19 @@ declare(strict_types=1);
  * @see excelFormulaUtilitiesJS on https://github.com/joshbtn/excelFormulaUtilitiesJS
  */
 
+define ('REPO', 'https://github.com/cavo789/excel_formatter');
+
 // Sample formula
 $formula = '=IF(ISNA(VLOOKUP("Value";G1:K11;1;FALSE));"Not found";"Found")';
 
 // Delimiter
 $delim = ';';
+
+// Get the GitHub corner
+$github = '';
+if (is_file($cat = __DIR__ . DIRECTORY_SEPARATOR . 'octocat.tmpl')) {
+    $github = str_replace('%REPO%', REPO, file_get_contents($cat));
+}
 ?>
 
 <!DOCTYPE html>
@@ -34,6 +43,7 @@ $delim = ';';
         <link rel="stylesheet" href="assets/css/screen.css">
     </head>
     <body>
+        <?php echo $github; ?>
         <div class="container">
             <div class="page-header"><h1>Excel formula beautifier</h1></div>
             <div class="container">

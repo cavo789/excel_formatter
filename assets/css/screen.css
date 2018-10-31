@@ -15,14 +15,14 @@ header .title{float:left;}
 
 /*Non Phone*/
 @media(min-width:767px){
-	header .title{margin:1.55em 0 0 0;}
+    header .title{margin:1.55em 0 0 0;}
 }
 /*Phone*/
 @media(max-width:767px){
-	header .title{margin:0.55em 0 0 0;}
-	header img{width:50px; height: 52px;}
-	header h1{font-size:1.31em; line-height:0.91em; }
-	header p{font-size:0.61em; line-height:1.61em;  }
+    header .title{margin:0.55em 0 0 0;}
+    header img{width:50px; height: 52px;}
+    header h1{font-size:1.31em; line-height:0.91em; }
+    header p{font-size:0.61em; line-height:1.61em;  }
 }
 
 /*-----------FORMULA INPUT-------------*/
@@ -33,18 +33,18 @@ header .title{float:left;}
 
 /*-----------FORMULA STYLES------------*/
 .formula{
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	background-color:#f5fffa;
-	border:solid 1px #e4e4e4;
-	padding: 1.428em;
-	overflow:auto;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    background-color:#f5fffa;
+    border:solid 1px #e4e4e4;
+    padding: 1.428em;
+    overflow:auto;
 }
 #fomatFormula_2_out{display:inline;white-space: nowrap}
 .function{
-	color:#069;
+    color:#069;
 }
 .function_start, .function_stop{
-	color:#ff0000;
+    color:#ff0000;
 }
 .tabbed{border-left:dotted 1px #a0a0a0}
 .quote_mark, .text{color:#0000ff}
@@ -57,7 +57,7 @@ input[type="file"], input[type="image"], input[type="submit"], input[type="reset
 }
 
 #copyFormulaBtn{
-	float:right;
+    float:right;
   position: relative;
-	clear: none;
+    clear: none;
 }
