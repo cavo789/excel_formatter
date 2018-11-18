@@ -14,7 +14,7 @@
  * @see excelFormulaUtilitiesJS on https://github.com/joshbtn/excelFormulaUtilitiesJS
  */
 
-define ('REPO', 'https://github.com/cavo789/excel_formatter');
+define('REPO', 'https://github.com/cavo789/excel_formatter');
 
 // Sample formula
 $formula = '=IF(ISNA(VLOOKUP("Value";G1:K11;1;FALSE));"Not found";"Found")';
@@ -68,7 +68,7 @@ if (is_file($cat = __DIR__ . DIRECTORY_SEPARATOR . 'octocat.tmpl')) {
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/js/excel-formula.js"></script>
+        <script type="text/javascript" src="assets/js/excel-formula.min.js"></script>
         <script type="text/javascript">
 
             String.prototype.replaceAll = function(search, replacement) {
