@@ -31,7 +31,7 @@ Just copy/paste your Excel formula into the text box as illustrated here below a
 
 Parameter `Excel formula delimiter`: depending on your settings, the delimiter in Excel can be a comma `,` or a semi-colon `;`. If needed, update the delimiter.
 
-![excel_formatter](images/excel_formatter.png)
+![excel_formatter](images/demo.gif)
 
 ## Source
 

@@ -50,6 +50,22 @@ if (is_file($cat = __DIR__ . DIRECTORY_SEPARATOR . 'octocat.tmpl')) {
                 <div class="form-group">
                     <label for="formula">Copy/Paste your Excel's formula in the 
                         textbox below then click on the Beautify button:</label>
+                    <details>
+                    <summary>How to use?</summary>
+
+                    <div class="row">
+                            <div class="col-sm">
+                                <ul>
+                                    <li>Type (or paste) the Excel formula to explain</li>
+                                    <li>And click on the Beautify button.</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm">
+                                <img height="300px" src="https://raw.githubusercontent.com/cavo789/excel_formatter/master/images/demo.gif" alt="Demo">
+                            </div>
+                        </div>
+                    </div>
+                </details>
                     <textarea class="form-control" rows="3" id="formula" name="formula"><?php echo $formula; ?></textarea>
                 </div>
                 <div class="form-group row">
