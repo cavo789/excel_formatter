@@ -1,6 +1,6 @@
-![banner](images/banner.jpg)
-
 # Excel Formula Beautifier
+
+![banner](./banner.svg)
 
 Improves the readability of Excel formulas. Display long formula into a nice HTML output
 
