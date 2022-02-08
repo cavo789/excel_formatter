@@ -69,7 +69,7 @@ if (is_file($cat = __DIR__ . DIRECTORY_SEPARATOR . 'octocat.tmpl')) {
                 </i>
             </div>
         </div>
-        <script src="https://unpkg.com/vue"></script>
+        <script src="https://unpkg.com/vue@2"></script>
         <script type="text/javascript" src="assets/js/excel-formula.min.js"></script>
         <script type="text/javascript">
 
